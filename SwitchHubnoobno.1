@@ -4198,11 +4198,11 @@ SettingGeneral:AddDropdown('FastAttackMode', {
 Options.FastAttackMode:OnChanged(function(a)
 	SelectSpeedFast = a
 	if SelectSpeedFast == "ช้า" then
-		_G.Fast_Delay = 0.40
+		_G.Fast_Delay = 2.55
 	elseif SelectSpeedFast == "กลาง" then
-		_G.Fast_Delay = 0.26
+		_G.Fast_Delay = 1.30
 	elseif SelectSpeedFast == "เร็วจัด" then
-		_G.Fast_Delay = 0.15
+		_G.Fast_Delay = 1.00
 	end
 end)
 
